@@ -12,6 +12,7 @@
 
 // console.log(JSON.parse(JSON.stringify(options)));//Принимать и преобразовывать данные с сервера
 alert('hello');
+window.onload=function(){
 let inputRub = document.getElementById('rub'),
     inputUsd=document.getElementById('usd');
 
@@ -56,4 +57,4 @@ inputRub.addEventListener('input', () => {
         }
     });
 
-});
+});}
